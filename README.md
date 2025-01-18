@@ -48,10 +48,16 @@ Start by creating and activating a Python virtual environment to isolate depende
 git clone https://github.com/AmidelEst/spotify_to_ytmusic.git
 cd spotify_to_ytmusic
 ```
-
+On Windows:
 ```shell
 python -m venv .venv
 .venv\Scripts\activate
+pip install ytmusicapi tk
+```
+Or on Linux / Mac:
+```shell
+python3 -m venv .venv
+source .venv\bin\activate
 pip install ytmusicapi tk
 ```
 
