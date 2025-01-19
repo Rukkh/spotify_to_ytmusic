@@ -75,9 +75,7 @@ To use the YouTube Music API, you need to generate valid credentials. Follow the
 Other browsers may be able to do this, but unless you're a web developer and know how, its easier just to use firefox.
 
 2. **Open the Inspection Tool**:
-   Open the browser’s inspection tool.
-   Right Click - > Inspect
-  'F12' On Windows or '⌥⌘I' on Macos
+   Open the browser’s inspection tool. Right Click - > Inspect. 'F12' On Windows or '⌥⌘I' on MacOS
 
 4. **Access the Network Tab**:
    Navigate to the **Network** tab and filter by `/browse`.
