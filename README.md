@@ -68,28 +68,33 @@ pip install ytmusicapi tk
 To use the YouTube Music API, you need to generate valid credentials. Follow these steps:
 ![GIF demonstrating how to inquire about credentials in YouTube Music](assets/youtube-music-instructions.gif)
 
+
 1. **Log in to YouTube Music**:
-   Open [YouTube Music](https://music.youtube.com) in Firefox and ensure you are logged in.
+   Open [YouTube Music](https://music.youtube.com) in __Firefox__ and ensure you are logged in.
+
+Other browsers may be able to do this, but unless you're a web developer and know how, its easier just to use firefox.
 
 2. **Open the Inspection Tool**:
-   Press `F12` to open the browser’s inspection tool.
+   Open the browser’s inspection tool.
+   Right Click - > Inspect
+  'F12' On Windows or '⌥⌘I' on Macos
 
-3. **Access the Network Tab**:
+4. **Access the Network Tab**:
    Navigate to the **Network** tab and filter by `/browse`.
 
-4. **Select a Request**:
+5. **Select a Request**:
    Click on one of the requests under the filtered results and locate the **Request Headers** section.
 
-5. **Toggle RAW View**:
+6. **Toggle RAW View**:
    Click on the **RAW** toggle button to view the headers in raw format.
 
-6. **Copy Headers**:
+7. **Copy Headers**:
    Right-click, choose **Select All**, and then copy the content.
 
-7. **Paste into `raw_headers.txt`**:
+8. **Paste into `raw_headers.txt`**:
    Open the `raw_headers.txt` file located in the main directory of this project and paste the copied content into it.
 
-8. **Run the Script**:
+9. **Run the Script**:
 
    Execute the following command to generate the credentials file:
 
@@ -97,7 +102,7 @@ To use the YouTube Music API, you need to generate valid credentials. Follow the
    python spotify2ytmusic/ytmusic_credentials.py
    ```
 
-9. **Done**:
+10. **Done**:
 
    Your YouTube Music credentials are now ready.
 
